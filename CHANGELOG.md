@@ -18,6 +18,7 @@
 - 以本機假 HTTP server（`spec/support/fake_server.rb`）撰寫的 client / API base / response 測試，不連外部網路。
 - GitHub Actions 自動發佈到 RubyGems（Trusted Publishing，`publish.yml`）。
 - `CHANGELOG.md`、完整的 `README.md`，以及 `CLAUDE.md` 的發版與文件更新規則。
+- `CLAUDE.md` 的語言規則：`README.md` 與 `CHANGELOG.md` 一律用繁體中文（zh-TW）撰寫，程式碼、識別字與指令維持英文。
 
 ### Changed
 
