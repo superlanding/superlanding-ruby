@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+source "https://rubygems.org"
+
+gemspec path: ".."
+
+gem "activesupport", "~> 7.1.0"
+gem "rake", ">= 13"
+gem "minitest", "~> 5.0"
+
+# Ruby 3.4 已不再內建這些 gem；ActiveSupport 7.0 / 7.1 沒有自行宣告，故明確列出
+gem "logger"
+gem "mutex_m"
+gem "bigdecimal"
+gem "base64"
+gem "drb"
